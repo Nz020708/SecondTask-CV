@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Alkalami&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <title>CV</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="top">
+            <span>Position: </span>
+            Junior Frontend Developer
+        </h1>
+    </header>
+    <main>
+        <section id="about">
+            <div class="myContainer">
+                <div class="main_info">
+                    <img src="./assets/images/myPhoto.jpeg" alt="photo" />
+                    <ul>
+                        <li><b>Name:</b> Nezaket Memmedzade</li>
+                        <li>
+                            <b>Git:</b>
+                            <a href="https://github.com/Nz020708?tab=repositories" target="_blank">Click here</a>
+                        </li>
+                        <li><b>Course Number:</b> 4</li>
+                    </ul>
+                </div>
+                <form action="#">
+                    <div class="birthday">
+                        <label for="birthdate">Birth date: </label>
+                        <input type="date" name="birthdate" />
+                    </div>
+                    <div class="english">
+                        <p class="level">English level:</p>
+                        <div class="options">
+                            <label for="bad">Bad </label>
+                            <input type="radio" name="english" id="bad" />
+                            <label for="middle">Middle </label>
+                            <input type="radio" name="english" id="middle" />
+                            <label for="good">Good </label>
+                            <input type="radio" name="english" id="good" />
+                            <label for="awesome">Awesome </label>
+                            <input type="radio" name="english" id="awesome" />
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <p class="keySkills">Key Skills:</p>
+                        <ul>
+                            <li>- HTML</li>
+                            <li>- CSS/SCSS</li>
+                            <li>- JavaScript</li>
+                            <li>- C#</li>
+                            <li>- asp.NET MVC</li>
+                            <li>- SQL/MsSQL</li>
+                            <li>- Bootstrap</li>
+                        </ul>
+                    </div>
+                    <div class="list">
+                        <input type="text" name="text" placeholder="please put text here " />
+                        <button>add to the list</button>
+                    </div>
+                    <div class="language">
+                        <label for="language">Language Sector: </label>
+                        <select name="languages">
+                            <option value="choose">Choose an option</option>
+                            <option value="english">English</option>
+                            <option value="russian">Russian</option>
+                            <option value="german">German</option>
+                            <option value="spanish">Spanish</option>
+                        </select>
+                    </div>
+                    <div class="salary">
+                        <label for="salary">Salary: </label>
+                        <input type="text" name="salary" placeholder="enter the value" />
+                    </div>
+                    <div class="other_skills">
+                        <p>Other Skills:</p>
+                        <input type="checkbox" name="otherSkills" id="skill1" />
+                        <label for="skill1"> Skill 1: </label>
+                        <input type="checkbox" name="otherSkills" id="skill2" />
+                        <label for="skill2"> Skills 2: </label>
+                        <input type="checkbox" name="otherSkills" id="skill3" />
+                        <label for="skill3"> Skills 3: </label>
+                        <input type="checkbox" name="otherSkills" id="skill4" />
+                        <label for="skill4"> Skills 4: </label>
+                    </div>
+                    <div class="education">
+                        <p>Education:</p>
+                        <table>
+                            <tr>
+                                <th>#</th>
+                                <th>Date</th>
+                                <th>Place</th>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>2008-2019</td>
+                                <td>№210 School</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>2019-2023</td>
+                                <td>Baku State University</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>02/2022-07/2022</td>
+                                <td>Code Academy</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>09/2022-</td>
+                                <td>Dev Academy</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <button class="savebtn">Save Profile</button>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
